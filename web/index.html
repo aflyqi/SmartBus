@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f5f9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0e14" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="澳门巴士到站时间预测：基于历史行车数据与实时路况">
+  <title>SmartBus · 澳门巴士到站预测</title>
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script>
+    try { const t = localStorage.getItem('sb.theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar"></aside>
+    <main class="main">
+      <div class="view" id="view"></div>
+    </main>
+    <nav class="tabbar" id="tabbar"></nav>
+  </div>
+  <div class="sheet-backdrop" id="sheet-backdrop"></div>
+  <section class="sheet" id="sheet" aria-modal="true" role="dialog"></section>
+  <div class="toast" id="toast"></div>
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

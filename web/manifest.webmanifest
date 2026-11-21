@@ -1,0 +1,9 @@
+{
+  "name": "SmartBus 澳门巴士到站预测",
+  "short_name": "SmartBus",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f9",
+  "theme_color": "#5b5bf6",
+  "icons": [{ "src": "/assets/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
